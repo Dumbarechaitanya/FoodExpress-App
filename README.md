@@ -1,6 +1,12 @@
 Add images folder in your assets folder  by creating assets folder outside Lib folder in your app.
+
+
 And add rest of the folder in your Lib folder
+
+
 Also run following commandsin lib integrated terminal:/n
+
+  
   flutter pub get
   flutter pub add collection      
   flutter pub add provider   
@@ -13,7 +19,11 @@ Also run following commandsin lib integrated terminal:/n
   flutter pub add firebase_core
   flutter pub add firebase_auth
   flutter pub add cloud_firestore
+
+
 After running above commands check in your pubspec.yaml file if following is being displayed :/n
+
+  
   cupertino_icons: ^1.0.6
   get: ^4.6.6
   provider: ^6.1.2
